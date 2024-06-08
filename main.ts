@@ -10,5 +10,4 @@ let answers = await inquirer.prompt([{
 }])
 
 const whiteSpace = answers.counter.trim().split(" ")
-console.log(whiteSpace);
 console.log(chalk.yellow(`The total words in your sentence are ${whiteSpace.length}.`));
